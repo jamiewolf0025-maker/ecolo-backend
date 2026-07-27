@@ -9,7 +9,7 @@ const crypto = require("crypto");
 const app = express();
 
 app.use(cors({
-  origin: "https://ecolog-poe7.onrender.com"
+  origin: "https://ecolovtv.onrender.com"
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
